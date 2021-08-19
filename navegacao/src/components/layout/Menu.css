@@ -1,0 +1,29 @@
+.Menu{
+    display: flex;
+    flex-basis: 250px;
+    background-color: blanchedalmond;
+}
+
+.Menu nav {
+    flex: 1;
+}
+
+.Menu ul{
+    list-style: none;
+    padding: 0;
+}
+.Menu li {
+    display: flex;
+}
+.Menu li a {
+text-decoration: none;
+color: black;
+font-size: large;
+margin-bottom: 10px;
+padding: 5px;
+flex: 1;
+}
+
+.Menu li a:hover{
+    background: rgb(228, 98, 98);
+}
